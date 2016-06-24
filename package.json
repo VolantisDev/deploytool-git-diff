@@ -1,0 +1,33 @@
+{
+  "name": "deploytool-git-diff",
+  "version": "0.1.0",
+  "description": "An extension for Deploytool that gets a diff of files that have changed between commits",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmcclure/deploytool-git-diff"
+  },
+  "author": {
+    "name": "Ben McClure",
+    "email": "ben.mcclure@gmail.com",
+    "url": "http://benmcclure.com"
+  },
+  "files": [
+    "index.js",
+    "./lib"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "dependencies": {
+    "async": "^2.0.0-rc.6",
+    "deploytool": "^0.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
