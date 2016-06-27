@@ -3,6 +3,11 @@
  */
 
 module.exports = {
+  name: 'git-diff',
+  tag: 'deployment',
+  init: function () {
+
+  },
   deploy: require('./lib/deploy'),
   deployFiles: require('./lib/deploy-files'),
   dirEmpty: require('./lib/dir-empty'),
